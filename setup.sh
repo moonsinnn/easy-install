@@ -224,8 +224,6 @@ scripts=(
         "cut-log"
         "welcome"
         "customkernel"
-        "netzbackup"
-        "netzrestore"
         "badvpn-udpgw"
         "speedtest"
         "menutraffic"
