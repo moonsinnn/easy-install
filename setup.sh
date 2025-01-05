@@ -148,6 +148,9 @@ rm -f index.html
 wget -q -O html.zip "${source}/html.zip"
 unzip -qq html.zip
 rm -f html.zip
+# fix permission 
+chown -R www-data:www-data /var/www/html
+
 
 # Define an array of script names
 scripts=(
