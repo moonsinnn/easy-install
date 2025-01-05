@@ -39,7 +39,7 @@ for pkg in bsdmainutils coreutils; do
 done
 # Install necessary packages
 echo -e "${green}Installing packages...${NC}"
-apt -y install wget curl jq shc screenfetch >/dev/null 2>&1 && echo -e "${green}Installation complete.${NC}"
+apt -y install wget curl jq socat screenfetch >/dev/null 2>&1 && echo -e "${green}Installation complete.${NC}"
 
 # Set timezone to GMT +7
 echo -e "${green}Setting timezone to GMT +7...${NC}"
