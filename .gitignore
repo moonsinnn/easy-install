@@ -1,0 +1,7 @@
+build
+*.dev
+api
+beta
+.cache/
+.env
+cachebuild
